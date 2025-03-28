@@ -13,3 +13,9 @@ Whether you're a creative thinker, student, or professional, ThinkBox keeps you 
 # Features
 
  
+
+## Demo
+
+Give it a try! Access the live demo [here](http://127.0.0.1:5500/index.html).
+
+Thanks for checking it out!
