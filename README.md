@@ -5,14 +5,11 @@
 # 🧠 Think Box
 <b>
 
-
-**👋 Welcome to ThinkBox!** This simple and intuitive application helps you store your ideas and to-dos in one place.  
-      Whether you're a creative thinker, student, or professional, ThinkBox keeps you organized and inspired! 
+👋 Welcome to ThinkBox! This simple and intuitive application helps you store your ideas and to-dos in one place. 
+Whether you're a creative thinker, student, or professional, ThinkBox keeps you organized and inspired! 
 
 
 # Demo
-
-
 
 Give it a try! Access the live demo [here](https://aasmahash.github.io/ThinkBox/). Now store your ideas and manage tasks with ease! 
 
