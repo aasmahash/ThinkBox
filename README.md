@@ -10,11 +10,8 @@
 
 Whether you're a creative thinker, student, or professional, ThinkBox keeps you organized and inspired! 
 
-# Features
 
- 
-
-## Demo
+# Demo
 
 
 
