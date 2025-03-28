@@ -5,38 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ThinkBox</title>
     <link rel="stylesheet" href="style.css">
+
+    <div class="title-container">
+        <span>T</span>
+        <span>H</span>
+        <span>I</span>
+        <span>N</span>
+        <span>K</span>
+        <span>B</span>
+        <span>O</span>
+        <span>X</span>
+    </div>
+    
+
 </head>
 <body>
 
-    <!-- 📌 Header -->
+    <!--  Header -->
     <header>
         <h1>Store all your ideas and to-dos in one place!</h1>
     </header>
 
-    <!-- 🏠 Main Content -->
+    <!-- Main Content -->
     <main>
 
-        <!-- 📝 Notes Section -->
+        <!--  Notes Section -->
         <section id="notes-section">
             <h2>My Notes</h2>   
-            <textarea id="notes" placeholder="Write your notes here..."></textarea>
-            <button id="saveNote">Save Note</button>
+            <textarea id="notes" placeholder="✍️ Write your notes here..."></textarea>
+            <button id="saveNote">💾 Save Note</button>
+            <ul id="notesList"></ul>
+
         </section>
 
-        <!-- ✅ Task Manager Section -->
+        <!-- Task Manager Section -->
         <section id="task-section">
             <h2>Task Manager</h2>
             <div class="task-input">
-                <input type="text" id="taskInput" placeholder="Enter a task...">
+                <input type="text" id="taskInput" placeholder="🖊️ Enter a task...">
                 <input type="date" id="taskDate">
-                <button id="addTask">Add Task</button>
+                <button id="addTask">➕ Add Task</button>
             </div>
             <ul id="taskList"></ul>
         </section>
 
     </main>
 
-    <!-- 📜 JavaScript -->
+    <!-- JavaScript -->
     <script src="script.js"></script>
 
 </body>

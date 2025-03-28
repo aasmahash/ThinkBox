@@ -46,3 +46,42 @@ function addTaskToDOM(task) {
     li.appendChild(deleteBtn);
     taskList.appendChild(li);
 }
+const notesInput = document.getElementById("notes");
+const saveNoteButton = document.getElementById("saveNote");
+const notesList = document.getElementById("notesList");
+
+// Load saved notes from local storage
+let notes = JSON.parse(localStorage.getItem("notes")) || [];
+notes.forEach(addNoteToDOM);
+
+saveNoteButton.addEventListener("click", saveNote);
+
+function saveNote() {
+    const noteText = notesInput.value.trim();
+
+    if (noteText === "") return; // Prevent empty notes
+
+    // Store note
+    notes.push(noteText);
+    localStorage.setItem("notes", JSON.stringify(notes));
+
+    addNoteToDOM(noteText);
+    notesInput.value = ""; // Clear the input field
+}
+
+function addNoteToDOM(noteText) {
+    const li = document.createElement("li");
+    li.textContent = noteText;
+
+    const deleteBtn = document.createElement("button");
+    deleteBtn.textContent = "Delete";
+    deleteBtn.className = "delete-btn";
+    deleteBtn.addEventListener("click", () => {
+        notes = notes.filter(n => n !== noteText);
+        localStorage.setItem("notes", JSON.stringify(notes));
+        notesList.removeChild(li);
+    });
+
+    li.appendChild(deleteBtn);
+    notesList.appendChild(li);
+}
