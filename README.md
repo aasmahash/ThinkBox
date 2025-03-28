@@ -16,6 +16,9 @@ Whether you're a creative thinker, student, or professional, ThinkBox keeps you 
 
 ## Demo
 
-Give it a try! Access the live demo [here](http://127.0.0.1:5500/index.html).
+
+
+Give it a try! Access the live demo [here](https://aasmahash.github.io/ThinkBox/). Now store your ideas and manage tasks with ease! 
+
 
 Thanks for checking it out!
