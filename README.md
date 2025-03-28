@@ -7,8 +7,7 @@
 
 
 **👋 Welcome to ThinkBox!** This simple and intuitive application helps you store your ideas and to-dos in one place.  
-
-Whether you're a creative thinker, student, or professional, ThinkBox keeps you organized and inspired! 
+      Whether you're a creative thinker, student, or professional, ThinkBox keeps you organized and inspired! 
 
 
 # Demo
